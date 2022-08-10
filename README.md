@@ -17,7 +17,7 @@ As soon as it is test assessment and I have restricted time:
 2. I created unit tests only for domain service. My solution is testable. It is not a problem to write some integration tests as well.
 3. It is not a production quality code.
 4. I did not use MediatR, AutoMapper, etc. Time to set all tools up I put in implementing bare minimum.
-5. I added cancelation tokens for demonstration purposes. For a real application, we should also implement trigger for cancelation.
+5. I added cancellation tokens for demonstration purposes. For a real application, we should also implement trigger for cancellation.
 6. I did not make the API of my use cases generic. User can not specify city or any other option except "has a garden" and "top count".
 7. I did not create any specific exception for the Domain layer and used standard exceptions. (For example, I could create a "negative top count exception" and handle it)
 8. I did not put configuration for policies in appsettings.json to save time. I create a simple static class with configuration.
