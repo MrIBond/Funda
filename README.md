@@ -21,8 +21,7 @@ As soon as it is test assessment and I have restricted time:
 6. I did not make the API of my use cases generic. User can not specify city or any other option except "has a garden" and "top count".
 7. I did not create any specific exception for the Domain layer and used standard exceptions. (For example, I could create a "negative top count exception" and handle it)
 8. I did not put configuration for policies in appsettings.json to save time. I create a simple static class with configuration.
-9. I skipped some separation for concerns such as special classes for DI registrations and so on.
-10. All my code is only for demonstration purposes. We can discuss all the missing elements in an interview.
+9. All my code is only for demonstration purposes. We can discuss all the missing elements in an interview.
 
 Technical: I used .NET6 framework, XUnit, FluentAssertions, Polly.NET.
 
